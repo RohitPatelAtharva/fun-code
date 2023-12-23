@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Reset default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Set the width and margin of the container */
+#container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+/* Set the background and padding of the header */
+#header {
+  background: lightblue;
+  padding: 10px;
+}
+
+/* Set the font size and color of the h1 element */
+h1 {
+  font-size: 36px;
+  color: white;
+}
+
+/* Set the font size and color of the p elements */
+p {
+  font-size: 18px;
+  color: black;
+}
+
+/* Set the width and margin of the company and customer sections */
+#company, #customer {
+  width: 40%;
+  margin: 10px;
+}
+
+/* Set the font size and color of the h2 elements */
+h2 {
+  font-size: 24px; 
+  color: black;
+}
+
+/* Set the width and border of the table */
+table {
+  width: 100%;
+  border: 1px solid black;
+}
+
+/* Set the padding and border of the table cells */
+th, td {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+/* Set the text alignment of the table cells */
+th {
+  text-align: left;
+}
+
+td {
+  text-align: right;
+}
+
+/* Set the background and padding of the total section */
+#total {
+  background: lightgreen;
+  padding: 10px;
+}
+
+/* Set the text alignment of the footer */
+#footer {
+  text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+          <h1>Invoice</h1>
+          <p>Invoice Date: 12-01-2022</p>
+          <p>Invoice #: 11</p>
+          <p>Due Date: 01-01-2023</p>
+        </div>
+        <div id="company">
+          <h2>Company Details</h2>
+          <p>Name:  Creataum</p>
+          <p>Industry: Software Development</p>
+          <p>Address:  Bojubeer, Tahsil</p>
+          <p>Phone:  783915415</p>
+          <p>Email:  creataum@.in</p>
+          <p>Tax NO: 123456789</p>
+          <p>Tax Office: A' Moon</p>
+        </div>
+        <div id="customer">
+          <h2>Customer Details</h2>
+          <p>Name:Agrasen P.G college  </p>
+          <p>College:  First Branch</p>
+          <p>Address:  Mirzapure Varanasi, Pin 26226624,UP</p>
+          <p>Phone:  0542-265-276</p>
+          <p>Email: agrasenp.g@gmail.com</p>
+          <p>Tax NO: 123456789</p>
+        </div>
+        <div id="items">
+          <h2>Services / Products</h2>
+          <table>
+            <tr>
+              <th>Description</th>
+              <th>Quantity</th>
+              <th>Unit Price</th>
+              <th>Total Price</th>
+            </tr>
+            <tr>
+              <td> Descroption1</td>
+              <td>2</td>
+              <td>$3.00</td>
+              <td>$6.00</td>
+            </tr>
+            <tr>
+              <td>Descroption2</td>
+              <td>1</td>
+              <td>$3.00</td>
+              <td>$3.00</td>
+            </tr>
+          </table>
+        </div>
+        <div id="total">
+          <h2>Total</h2>
+          <p>Subtotal: $9.00</p>
+          <p>Tax: $1.80</p>
+          <p>Final: $10.80</p>
+        </div>
+        <div id="footer">
+          <p>Thank You!</p>
+        </div>
+      </div>
+      
+</body>
+</html>
